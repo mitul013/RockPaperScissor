@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #24272E;
+	color: white;
+	font-family: 'Asap', sans-serif;
+}
+
+header{
+	background-color: #e25840;
+	text-align: center;
+	padding: 8px;
+}
+
+header > h1{
+	color: #25272E;
+	font-family: 'Asap', sans-serif;
+}
+
+#score-container{
+	margin: 20px auto;
+	border: 1px solid white;
+	width: 200px;
+	position: relative;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 30px;
+	border-radius: 2px;
+}
+
+.lables{
+	background: #e25840;
+	box-sizing: border-box;
+	padding: 2px 5px;
+	font-size: 14px;
+}
+
+#user-lable{
+	position: absolute;
+	top: 35%;
+	left: -8%;
+}
+
+#user-lable:hover{
+	transform: scale(1.1);
+}
+
+#computer-lable{
+	position: absolute;
+	top: 35%;
+	right: -20%;
+}
+
+#computer-lable:hover{
+	transform: scale(1.1);
+}
+
+#result-status{
+	text-align:center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#images-container{
+	margin: 50px auto;	
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#images-container1{
+	margin: 30px auto;	
+	text-align: center;
+}
+
+.game-image{
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0 20px;
+}
+
+.game-image:hover{
+	transform: scale(1.05);
+}
+
+.game-image1{
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 3px;
+	margin: 0 20px;
+	width:110px;
+	height:110px;
+}
+
+#move{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.green{
+	border: 2px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red{
+	border: 2px solid #cc4b76;
+	box-shadow: 0 0 10px #b83260;
+}
+
+.grey{
+	border: 2px solid #756b6b;
+	box-shadow: 0 0 10px #4f4c4c;
+}

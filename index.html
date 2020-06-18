@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Mdrh Game</title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<audio id="win-audio">
+			<source src="audio/win.mp3">
+		</audio>
+		<audio id="lose-audio">
+			<source src="audio/lose.mp3">
+		</audio>
+		<header><h1>Rock Paper Scissors</h1></header>
+		<div id="score-container">
+			<div id="user-lable" class="lables">User</div>
+			<div id="computer-lable" class="lables">Computer</div>
+			<span id="user-score">0</span>:<span id="computer-score">0</span>
+		</div>
+		<div id="result-status">
+			<p id="result">Let's Start</p>
+		</div>
+		
+		<div id="images-container1">
+			<div class="game-image1" class="green" id="u-div"><img src="" id="u"></img></div> VS
+			<div class="game-image1" id="c-div"><img src="" id="c"></img></div>
+		</div>
+		
+		<div id="images-container">
+			<div class="game-image" id="r"><img src="images/rock.png"></img></div>
+			<div class="game-image" id="p"><img src="images/paper2.png"></img></div>
+			<div class="game-image" id="s"><img src="images/scissor.png"></img></div>
+		</div>
+		<div id="move"><p>Choose Your Move...</p></div>
+	<script src="js/script.js" ></script>
+	</body>
+</html>
